@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    position: static;
     background: teal;
 }
 
@@ -105,4 +106,34 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+@media only screen and (max-width: 980px) {
+    [column] {
+        width: 100%;
+    }
+    [#links] {
+        text-align: center;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [column] {
+        width: 100%;
+    }
+    [#links] {
+        text-align: center;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    [column] {
+        width: 100%;
+    }
+    [#links] {
+        text-align: center;
+        clear: both;
+    }
 }
